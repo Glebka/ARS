@@ -1,0 +1,8 @@
+*-backups
+fp-*
+sym-lib-*
+*.FCStd1
+.vscode/
+build/
+*.log
+*.zip
