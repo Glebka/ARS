@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TYPE-C_6P
+#
+DEF TYPE-C_6P USB 0 40 Y Y 1 F N
+F0 "USB" 0 403 50 H V C CNN
+F1 "TYPE-C_6P" 0 603 50 H V C CNN
+F2 "kicad_lceda:TYPE-C-SMD_TYPE-C-6P" 0 203 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_458819.html" 0 3 50 H I C CNN
+F4 "C456012" 0 -197 50 H I C CNN "SuppliersPartNumber"
+F5 "std:0a171ef7e373401c97c56bac4124dee9" 0 -197 50 H I C CNN "uuid"
+DRAW
+X EH 7 600 0 200 L 50 50 1 1 I 
+X GND A12 -400 -300 200 R 50 50 1 1 I 
+X VBUS A9 -400 -200 200 R 50 50 1 1 I 
+X CC1 A5 -400 0 200 R 50 50 1 1 I 
+X CC2 B5 -400 -100 200 R 50 50 1 1 I 
+X VBUS B9 -400 100 200 R 50 50 1 1 I 
+X GND B12 -400 200 200 R 50 50 1 1 I 
+C -150 250 15 1 1 6 F
+S -200 300 400 -400 1 1 6 N
+ENDDRAW
+ENDDEF
+
+#
+#End Library
