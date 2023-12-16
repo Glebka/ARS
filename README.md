@@ -15,3 +15,5 @@ As the receiver, an ESP32 TTGO LoRa 433MHz development board with an OLED displa
 - Implement a buzzer on the receiver to provide an audible signal in case of an alarm.
 - Redesign the enclosure for the receiver.
 - Design an enclosure for the alarm module.
+- Add encryption
+- Add protection from replay attacks
